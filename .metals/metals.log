@@ -17,3 +17,60 @@ WARNING: Unsupported notification method: metals/windowStateDidChange
 WARNING: Unsupported notification method: metals/windowStateDidChange
 февр. 19, 2025 12:39:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+февр. 19, 2025 12:40:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:41:16 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:41:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:41:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.19 00:42:39 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.02.19 00:42:39 WARN  no build target for: /home/leo/hub/moneytalk/project/metals.sbt
+2025.02.19 00:42:40 WARN  no build target for: /home/leo/hub/moneytalk/project/project/metals.sbt
+2025.02.19 00:42:40 INFO  no build target found for /home/leo/hub/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.19 00:42:40 INFO  [info] welcome to sbt 1.10.7 (Arch Linux Java 23.0.2)
+2025.02.19 00:42:41 INFO  no build target found for /home/leo/hub/moneytalk/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.19 00:42:42 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
+2025.02.19 00:42:42 INFO  [info] loading project definition from /home/leo/hub/moneytalk/project/project
+2025.02.19 00:42:43 INFO  [info] loading settings for project moneytalk-build from metals.sbt...
+2025.02.19 00:42:43 INFO  [info] loading project definition from /home/leo/hub/moneytalk/project
+2025.02.19 00:42:43 INFO  [success] Generated .bloop/moneytalk-build.json
+2025.02.19 00:42:44 INFO  [success] Total time: 1 s, completed 19 февр. 2025 г., 00:42:44
+2025.02.19 00:42:44 INFO  [info] loading settings for project root from build.sbt...
+2025.02.19 00:42:44 INFO  [info] set current project to moneytalk (in build file:/home/leo/hub/moneytalk/)
+2025.02.19 00:42:44 INFO  [success] Generated .bloop/root-test.json
+2025.02.19 00:42:44 INFO  [success] Generated .bloop/root.json
+2025.02.19 00:42:44 INFO  [success] Total time: 0 s, completed 19 февр. 2025 г., 00:42:45
+2025.02.19 00:42:45 INFO  time: ran 'sbt bloopInstall' in 5.5s
+2025.02.19 00:42:45 INFO  Attempting to connect to the build server...
+2025.02.19 00:42:45 INFO  Found a Bloop server running
+2025.02.19 00:42:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/hub/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.02.19 00:42:45 INFO  Attempting to connect to the build server...
+2025.02.19 00:42:45 INFO  Found a Bloop server running
+2025.02.19 00:42:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/hub/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.02.19 00:42:48 INFO  time: Connected to build server in 3.23s
+2025.02.19 00:42:48 INFO  Connected to Build server: Bloop v2.0.8
+2025.02.19 00:42:48 INFO  running doctor check
+2025.02.19 00:42:48 INFO  java targets: moneytalk-build, root, root-test
+2025.02.19 00:42:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-23-openjdk/src.zip, /usr/lib/jvm/java-23-openjdk/lib/src.zip. Java symbols will not be available.
+2025.02.19 00:42:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-23-openjdk/src.zip, /usr/lib/jvm/java-23-openjdk/lib/src.zip. Java symbols will not be available.
+2025.02.19 00:42:55 INFO  time: indexed workspace in 6.78s
+2025.02.19 00:43:02 INFO  
+2025.02.19 00:43:02 INFO  Template applied in /home/leo/hub/./hello-world
+2025.02.19 00:43:02 INFO  
+2025.02.19 00:43:02 INFO  time: ran 'giter8.Giter8' in 4.8s
+февр. 19, 2025 12:43:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+февр. 19, 2025 12:43:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:43:27 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:43:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:43:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:43:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+февр. 19, 2025 12:43:36 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange

@@ -1,0 +1,4 @@
+[debug] [moneytalk-build] Classpath dependencies List()
+[debug] [moneytalk-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'moneytalk-build' to '/home/leo/hub/moneytalk/project/.bloop/moneytalk-build.json'
+[success] Generated .bloop/moneytalk-build.json
