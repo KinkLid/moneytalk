@@ -199,3 +199,82 @@ WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report a
 2025.07.03 14:32:24 INFO  Shut down connection with build server.
 2025.07.03 14:32:24 INFO  Shut down connection with build server.
 2025.07.03 14:32:24 INFO  Exiting server
+2025.09.10 18:10:42 INFO  Started: Metals version 1.6.2 in folders '/home/leo/Документы/moneytalk' for client Cursor 1.99.3.
+2025.09.10 18:10:42 INFO  Attempting to connect to the build server...
+2025.09.10 18:10:42 INFO  Found a Bloop server running
+2025.09.10 18:10:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.09.10 18:10:43 INFO  Attempting to connect to the build server...
+2025.09.10 18:10:43 INFO  Found a Bloop server running
+2025.09.10 18:10:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 18:10:48 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 18:10:48 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 18:11:03 ERROR Timeout waiting for 'build/initialize' response
+2025.09.10 18:11:03 WARN  Retrying connection to the build server Bloop
+2025.09.10 18:11:03 INFO  Found a Bloop server running
+2025.09.10 18:11:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.09.10 18:11:09 INFO  time: Connected to build server in 26s
+2025.09.10 18:11:09 INFO  Connected to Build server: Bloop v2.0.10
+2025.09.10 18:11:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
+2025.09.10 18:11:31 INFO  time: indexed workspace in 22s
+2025.09.10 18:11:31 INFO  compiling root (1 scala source)
+Flag -Xsemanticdb set repeatedly
+2025.09.10 18:11:31 WARN  Flag -Xsemanticdb set repeatedly
+2025.09.10 18:11:34 INFO  time: compiled root in 2.56s
+Flag -Xsemanticdb set repeatedly
+2025.09.10 18:11:34 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
+2025.09.10 18:11:35 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:11:39 INFO  Disconnecting from Bloop session...
+2025.09.10 18:11:39 INFO  Shut down connection with build server.
+2025.09.10 18:11:39 INFO  Shut down connection with build server.
+2025.09.10 18:11:39 INFO  Attempting to connect to the build server...
+2025.09.10 18:11:39 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.09.10 18:11:39 INFO  No running Bloop server found, starting one.
+2025.09.10 18:11:41 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:11:44 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+сент. 10, 2025 6:11:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.09.10 18:11:54 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:11:56 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:11:56 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:11:59 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:12:02 INFO  Starting compilation server
+2025.09.10 18:12:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.09.10 18:12:03 INFO  Attempting to connect to the build server...
+2025.09.10 18:12:03 INFO  Found a Bloop server running
+2025.09.10 18:12:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.09.10 18:12:03 INFO  time: Connected to build server in 24s
+2025.09.10 18:12:03 INFO  Connected to Build server: Bloop v2.0.13
+2025.09.10 18:12:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
+2025.09.10 18:12:04 INFO  time: indexed workspace in 1.06s
+Flag -Xsemanticdb set repeatedly
+сент. 10, 2025 6:12:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.10 18:12:05 INFO  Created report: Optional[file:///home/leo/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/moneytalk/Main.scala]
+2025.09.10 18:12:05 INFO  java.lang.AssertionError: assertion failed: (List(Stamp(2024-11-03T20:45:23Z,57535,(dev=812,ino=5647306))),0) (full report at: "/home/leo/Документы/moneytalk/.metals/.reports/metals-full/2025-09-10/r_compiler-error_18-12-05-016.md")
+2025.09.10 18:12:05 INFO  compiling root (1 scala source)
+2025.09.10 18:12:05 WARN  Flag -Xsemanticdb set repeatedly
+сент. 10, 2025 6:12:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.09.10 18:12:06 INFO  Created report: Optional[file:///home/leo/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/moneytalk/build.sbt]
+2025.09.10 18:12:06 INFO  java.lang.AssertionError: assertion failed: (List(Stamp(2023-08-24T13:36:54Z,1156200,(dev=812,ino=4992006))),0) (full report at: "/home/leo/Документы/moneytalk/.metals/.reports/metals-full/2025-09-10/r_compiler-error_(moneytalk-build)_18-12-06-153.md")
+2025.09.10 18:12:07 INFO  time: compiled root in 2.13s
+сент. 10, 2025 6:12:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Flag -Xsemanticdb set repeatedly
+2025.09.10 18:13:21 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:13:21 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:13:21 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
+2025.09.10 18:13:44 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:13:44 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:13:44 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
+2025.09.10 18:14:02 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:14:02 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:14:02 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
+2025.09.10 18:14:22 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:14:22 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 18:14:22 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
