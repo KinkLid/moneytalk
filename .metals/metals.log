@@ -1,69 +1,201 @@
-2025.09.10 17:36:08 INFO  Started: Metals version 1.6.2 in folders 'C:\coc\moneytalk' for client Cursor 1.99.3.
-2025.09.10 17:36:10 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:36:35 INFO  running 'C:\Users\leo_b\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.16%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\leo_b\AppData\Local\Temp\metals2481796028578067425\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
-2025.09.10 17:36:44 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 17.0.16)
-2025.09.10 17:36:48 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
-2025.09.10 17:36:49 INFO  [info] loading project definition from C:\coc\moneytalk\project\project
-2025.09.10 17:37:08 INFO  [info] loading settings for project moneytalk-build from metals.sbt...
-2025.09.10 17:37:08 INFO  [info] loading project definition from C:\coc\moneytalk\project
-2025.09.10 17:37:30 INFO  [success] Generated .bloop\moneytalk-build.json
-2025.09.10 17:37:30 INFO  [success] Total time: 22 s, completed 10 сент. 2025 г., 17:37:30
-2025.09.10 17:37:32 INFO  [info] loading settings for project root from build.sbt...
-2025.09.10 17:37:32 INFO  [info] set current project to moneyTalk (in build file:/C:/coc/moneytalk/)
-2025.09.10 17:38:05 INFO  [success] Generated .bloop\root-test.json
-2025.09.10 17:38:05 INFO  [success] Generated .bloop\root.json
-2025.09.10 17:38:05 INFO  [success] Total time: 33 s, completed 10 сент. 2025 г., 17:38:05
-2025.09.10 17:38:05 INFO  time: ran 'sbt bloopInstall' in 1m30s
-2025.09.10 17:38:05 INFO  Attempting to connect to the build server...
-2025.09.10 17:38:05 INFO  No running Bloop server found, starting one.
-2025.09.10 17:38:32 INFO  Starting compilation server
-2025.09.10 17:38:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2025.09.10 17:38:36 INFO  Attempting to connect to the build server...
-2025.09.10 17:38:36 INFO  Found a Bloop server running
-2025.09.10 17:38:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2025.09.10 17:38:41 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
-2025.09.10 17:38:41 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:38:51 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:38:52 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
-2025.09.10 17:38:52 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:38:52 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:38:55 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 17:38:56 ERROR Timeout waiting for 'build/initialize' response
-2025.09.10 17:38:56 WARN  Retrying connection to the build server Bloop
-2025.09.10 17:38:56 INFO  Found a Bloop server running
-2025.09.10 17:38:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2025.09.10 17:38:58 INFO  time: Connected to build server in 52s
-2025.09.10 17:38:58 INFO  Connected to Build server: Bloop v2.0.13
-2025.09.10 17:38:58 INFO  time: Imported build in 0.29s
-2025.09.10 17:39:46 INFO  time: indexed workspace in 47s
-2025.09.10 17:39:47 INFO  compiling root (1 scala source)
-2025.09.10 17:39:51 INFO  time: compiled root in 4.79s
-2025.09.10 17:40:21 INFO  compiling root (1 scala source)
-2025.09.10 17:40:21 INFO  time: compiled root in 0.76s
-2025.09.10 17:40:44 INFO  compiling root (1 scala source)
-2025.09.10 17:40:44 INFO  time: compiled root in 0.48s
-2025.09.10 17:40:56 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:40:56 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:40:56 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
-2025.09.10 17:40:57 INFO  compiling root (1 scala source)
-2025.09.10 17:41:00 INFO  time: compiled root in 3.3s
-2025.09.10 17:41:03 INFO  compiling root (1 scala source)
-����. 10, 2025 5:41:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 98
-2025.09.10 17:41:03 INFO  time: compiled root in 0.45s
-2025.09.10 17:41:08 INFO  compiling root (1 scala source)
-2025.09.10 17:41:08 INFO  time: compiled root in 0.52s
-2025.09.10 17:41:12 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:41:12 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:41:12 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
-2025.09.10 17:41:29 INFO  compiling root (1 scala source)
-2025.09.10 17:41:31 INFO  time: compiled root in 2.38s
-2025.09.10 17:42:00 INFO  compiling root (1 scala source)
-2025.09.10 17:42:04 INFO  time: compiled root in 3.88s
-2025.09.10 17:42:06 INFO  skipping build import with status 'Installed'
-2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:42:06 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
-2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 17:42:06 WARN  no build target for: C:\coc\moneytalk\project\project\metals.sbt
+2025.03.16 21:20:06 INFO  Started: Metals version 1.5.1 in folders '/home/leo/moneytalk' for client Code - OSS 1.96.4.
+мар. 16, 2025 9:20:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+мар. 16, 2025 9:20:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+мар. 16, 2025 9:20:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+мар. 16, 2025 9:21:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+мар. 16, 2025 9:59:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.17 11:00:59 INFO  Started: Metals version 1.5.1 in folders '/home/leo/moneytalk' for client Code - OSS 1.96.4.
+мар. 17, 2025 11:02:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+мар. 17, 2025 11:20:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.03.17 11:20:16 INFO  Shutting down server
+2025.03.17 11:20:16 INFO  shutting down Metals
+2025.03.17 11:20:16 INFO  Exiting server
+2025.03.17 11:20:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.07.01 17:48:19 INFO  Started: Metals version 1.5.3 in folders '/home/leo/moneytalk' for client Code - OSS 1.100.2.
+2025.07.01 17:48:20 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:21 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:23 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:23 WARN  no build target for: /home/leo/moneytalk/project/metals.sbt
+2025.07.01 17:48:23 WARN  no build target for: /home/leo/moneytalk/project/project/metals.sbt
+2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:24 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.07.01 17:48:24 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by net.openhft.hashing.UnsafeAccess (file:/home/leo/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.7/zero-allocation-hashing-0.16.jar)
+2025.07.01 17:48:24 ERROR WARNING: Please consider reporting this to the maintainers of class net.openhft.hashing.UnsafeAccess
+2025.07.01 17:48:24 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+2025.07.01 17:48:24 ERROR WARNING: A restricted method in java.lang.System has been called
+2025.07.01 17:48:24 ERROR WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/home/leo/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.7/jna-5.12.0.jar)
+2025.07.01 17:48:24 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2025.07.01 17:48:24 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2025.07.01 17:48:24 ERROR 
+2025.07.01 17:48:24 INFO  [info] welcome to sbt 1.10.7 (Arch Linux Java 24.0.1)
+2025.07.01 17:48:25 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
+2025.07.01 17:48:25 INFO  [info] loading project definition from /home/leo/moneytalk/project/project
+2025.07.01 17:48:27 INFO  [info] loading settings for project moneytalk-build from metals.sbt...
+2025.07.01 17:48:27 INFO  [info] loading project definition from /home/leo/moneytalk/project
+2025.07.01 17:48:27 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:28 INFO  [success] Generated .bloop/moneytalk-build.json
+2025.07.01 17:48:28 INFO  [success] Total time: 1 s, completed 1 июл. 2025 г., 17:48:28
+2025.07.01 17:48:27 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:28 INFO  [info] loading settings for project root from build.sbt...
+2025.07.01 17:48:28 INFO  [info] set current project to moneytalk (in build file:/home/leo/moneytalk/)
+2025.07.01 17:48:28 INFO  [success] Generated .bloop/root-test.json
+2025.07.01 17:48:28 INFO  [success] Generated .bloop/root.json
+2025.07.01 17:48:28 INFO  [success] Total time: 0 s, completed 1 июл. 2025 г., 17:48:29
+2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:29 INFO  time: ran 'sbt bloopInstall' in 6.16s
+2025.07.01 17:48:29 INFO  Attempting to connect to the build server...
+2025.07.01 17:48:29 INFO  Found a Bloop server running
+2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.01 17:48:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.07.01 17:48:29 INFO  Attempting to connect to the build server...
+2025.07.01 17:48:29 INFO  Found a Bloop server running
+2025.07.01 17:48:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.07.01 17:48:33 INFO  time: Connected to build server in 3.91s
+2025.07.01 17:48:33 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.01 17:48:37 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
+2025.07.01 17:48:39 INFO  time: indexed workspace in 5.98s
+2025.07.01 17:48:39 INFO  compiling root (1 scala source)
+2025.07.01 17:48:41 INFO  time: compiled root in 1.74s
+2025.07.01 17:51:30 INFO  compiling root (1 scala source)
+2025.07.01 17:51:30 INFO  time: compiled root in 0.58s
+июл. 01, 2025 5:58:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-36-071.md
+2025.07.01 17:58:37 INFO  compiling root (1 scala source)
+2025.07.01 17:58:37 INFO  time: compiled root in 0.12s
+июл. 01, 2025 5:58:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-38-937.md
+июл. 01, 2025 5:58:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-39-862.md
+2025.07.01 17:58:48 INFO  compiling root (1 scala source)
+2025.07.01 17:58:48 INFO  time: compiled root in 94ms
+2025.07.01 18:07:46 INFO  compiling root (1 scala source)
+2025.07.01 18:07:46 INFO  time: compiled root in 0.36s
+июл. 01, 2025 6:08:22 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-08-22-429.md)
+2025.07.01 18:08:51 INFO  compiling root (1 scala source)
+2025.07.01 18:08:51 INFO  time: compiled root in 0.51s
+июл. 01, 2025 6:09:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-09-32-170.md)
+2025.07.01 18:09:43 INFO  compiling root (1 scala source)
+2025.07.01 18:09:43 INFO  time: compiled root in 0.41s
+2025.07.01 18:12:16 INFO  compiling root (1 scala source)
+2025.07.01 18:12:16 INFO  time: compiled root in 0.28s
+2025.07.01 18:13:21 INFO  compiling root (1 scala source)
+2025.07.01 18:13:21 INFO  time: compiled root in 0.34s
+июл. 01, 2025 6:13:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-08-22-429.md)
+2025.07.01 18:14:06 INFO  compiling root (1 scala source)
+2025.07.01 18:14:06 INFO  time: compiled root in 0.25s
+июл. 01, 2025 6:14:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+2025.07.01 18:14:23 INFO  compiling root (1 scala source)
+2025.07.01 18:14:23 INFO  time: compiled root in 0.24s
+2025.07.01 18:14:42 INFO  compiling root (1 scala source)
+2025.07.01 18:14:42 INFO  time: compiled root in 0.15s
+2025.07.01 18:14:58 INFO  compiling root (1 scala source)
+2025.07.01 18:14:58 INFO  time: compiled root in 0.28s
+июл. 01, 2025 6:15:33 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:15:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+2025.07.01 18:15:50 INFO  compiling root (1 scala source)
+2025.07.01 18:15:50 INFO  time: compiled root in 0.22s
+2025.07.01 18:17:04 INFO  compiling root (1 scala source)
+2025.07.01 18:17:04 INFO  time: compiled root in 0.22s
+июл. 01, 2025 6:19:19 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:19:20 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+2025.07.01 18:21:17 INFO  compiling root (1 scala source)
+2025.07.01 18:21:17 INFO  time: compiled root in 99ms
+2025.07.01 18:21:55 INFO  compiling root (1 scala source)
+2025.07.01 18:21:55 INFO  time: compiled root in 83ms
+2025.07.01 18:22:20 INFO  compiling root (1 scala source)
+2025.07.01 18:22:20 INFO  time: compiled root in 90ms
+2025.07.01 18:22:25 INFO  compiling root (1 scala source)
+2025.07.01 18:22:25 INFO  time: compiled root in 71ms
+июл. 01, 2025 6:23:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:23:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+2025.07.01 18:23:49 INFO  compiling root (1 scala source)
+2025.07.01 18:23:49 INFO  time: compiled root in 80ms
+июл. 01, 2025 6:25:16 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:25:36 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:25:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+июл. 01, 2025 6:25:51 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
+2025.07.01 18:25:51 INFO  compiling root (1 scala source)
+2025.07.01 18:25:51 INFO  time: compiled root in 81ms
+2025.07.01 18:25:54 INFO  compiling root (1 scala source)
+2025.07.01 18:25:54 INFO  time: compiled root in 79ms
+2025.07.01 18:25:58 INFO  compiling root (1 scala source)
+2025.07.01 18:25:58 INFO  time: compiled root in 63ms
+2025.07.01 18:26:00 INFO  compiling root (1 scala source)
+2025.07.01 18:26:00 INFO  time: compiled root in 59ms
+2025.07.01 18:27:12 INFO  compiling root (1 scala source)
+2025.07.01 18:27:12 INFO  time: compiled root in 0.21s
+2025.07.01 18:29:35 INFO  compiling root (1 scala source)
+2025.07.01 18:29:35 INFO  time: compiled root in 0.2s
+2025.07.01 18:29:42 INFO  compiling root (1 scala source)
+2025.07.01 18:29:42 INFO  time: compiled root in 0.17s
+2025.07.01 18:31:27 INFO  compiling root (1 scala source)
+2025.07.01 18:31:27 INFO  time: compiled root in 0.19s
+2025.07.01 18:34:15 INFO  compiling root (1 scala source)
+2025.07.01 18:34:15 INFO  time: compiled root in 0.41s
+2025.07.01 18:34:45 INFO  compiling root (1 scala source)
+2025.07.01 18:34:45 INFO  time: compiled root in 0.16s
+2025.07.01 18:35:07 INFO  compiling root (1 scala source)
+2025.07.01 18:35:07 INFO  time: compiled root in 0.14s
+2025.07.01 18:35:31 INFO  compiling root (1 scala source)
+2025.07.01 18:35:31 INFO  time: compiled root in 0.14s
+2025.07.01 18:36:07 INFO  compiling root (1 scala source)
+2025.07.01 18:36:07 INFO  time: compiled root in 0.17s
+2025.07.01 19:10:19 INFO  Shut down connection with build server.
+2025.07.01 19:10:19 INFO  Shut down connection with build server.
+2025.07.03 14:31:57 INFO  Started: Metals version 1.5.3 in folders '/home/leo/moneytalk' for client Code - OSS 1.100.2.
+2025.07.03 14:31:58 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.03 14:32:00 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.03 14:32:00 INFO  Attempting to connect to the build server...
+2025.07.03 14:32:00 INFO  No running Bloop server found, starting one.
+2025.07.03 14:32:02 INFO  Starting compilation server
+2025.07.03 14:32:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.07.03 14:32:03 INFO  Attempting to connect to the build server...
+2025.07.03 14:32:03 INFO  Found a Bloop server running
+2025.07.03 14:32:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
+2025.07.03 14:32:03 INFO  time: Connected to build server in 2.87s
+2025.07.03 14:32:03 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.03 14:32:03 INFO  time: Imported build in 0.15s
+2025.07.03 14:32:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
+2025.07.03 14:32:05 INFO  time: indexed workspace in 2.91s
+2025.07.03 14:32:24 INFO  Shutting down server
+2025.07.03 14:32:24 INFO  shutting down Metals
+2025.07.03 14:32:24 INFO  Shut down connection with build server.
+2025.07.03 14:32:24 INFO  Shut down connection with build server.
+2025.07.03 14:32:24 INFO  Exiting server
