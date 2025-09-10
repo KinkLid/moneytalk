@@ -1,0 +1,69 @@
+2025.09.10 17:36:08 INFO  Started: Metals version 1.6.2 in folders 'C:\coc\moneytalk' for client Cursor 1.99.3.
+2025.09.10 17:36:10 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:36:35 INFO  running 'C:\Users\leo_b\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.16%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\leo_b\AppData\Local\Temp\metals2481796028578067425\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.09.10 17:36:44 INFO  [info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 17.0.16)
+2025.09.10 17:36:48 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
+2025.09.10 17:36:49 INFO  [info] loading project definition from C:\coc\moneytalk\project\project
+2025.09.10 17:37:08 INFO  [info] loading settings for project moneytalk-build from metals.sbt...
+2025.09.10 17:37:08 INFO  [info] loading project definition from C:\coc\moneytalk\project
+2025.09.10 17:37:30 INFO  [success] Generated .bloop\moneytalk-build.json
+2025.09.10 17:37:30 INFO  [success] Total time: 22 s, completed 10 сент. 2025 г., 17:37:30
+2025.09.10 17:37:32 INFO  [info] loading settings for project root from build.sbt...
+2025.09.10 17:37:32 INFO  [info] set current project to moneyTalk (in build file:/C:/coc/moneytalk/)
+2025.09.10 17:38:05 INFO  [success] Generated .bloop\root-test.json
+2025.09.10 17:38:05 INFO  [success] Generated .bloop\root.json
+2025.09.10 17:38:05 INFO  [success] Total time: 33 s, completed 10 сент. 2025 г., 17:38:05
+2025.09.10 17:38:05 INFO  time: ran 'sbt bloopInstall' in 1m30s
+2025.09.10 17:38:05 INFO  Attempting to connect to the build server...
+2025.09.10 17:38:05 INFO  No running Bloop server found, starting one.
+2025.09.10 17:38:32 INFO  Starting compilation server
+2025.09.10 17:38:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.10 17:38:36 INFO  Attempting to connect to the build server...
+2025.09.10 17:38:36 INFO  Found a Bloop server running
+2025.09.10 17:38:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.10 17:38:41 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
+2025.09.10 17:38:41 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:38:51 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:38:52 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
+2025.09.10 17:38:52 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:38:52 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:38:55 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.10 17:38:56 ERROR Timeout waiting for 'build/initialize' response
+2025.09.10 17:38:56 WARN  Retrying connection to the build server Bloop
+2025.09.10 17:38:56 INFO  Found a Bloop server running
+2025.09.10 17:38:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.10 17:38:58 INFO  time: Connected to build server in 52s
+2025.09.10 17:38:58 INFO  Connected to Build server: Bloop v2.0.13
+2025.09.10 17:38:58 INFO  time: Imported build in 0.29s
+2025.09.10 17:39:46 INFO  time: indexed workspace in 47s
+2025.09.10 17:39:47 INFO  compiling root (1 scala source)
+2025.09.10 17:39:51 INFO  time: compiled root in 4.79s
+2025.09.10 17:40:21 INFO  compiling root (1 scala source)
+2025.09.10 17:40:21 INFO  time: compiled root in 0.76s
+2025.09.10 17:40:44 INFO  compiling root (1 scala source)
+2025.09.10 17:40:44 INFO  time: compiled root in 0.48s
+2025.09.10 17:40:56 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:40:56 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:40:56 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
+2025.09.10 17:40:57 INFO  compiling root (1 scala source)
+2025.09.10 17:41:00 INFO  time: compiled root in 3.3s
+2025.09.10 17:41:03 INFO  compiling root (1 scala source)
+����. 10, 2025 5:41:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+2025.09.10 17:41:03 INFO  time: compiled root in 0.45s
+2025.09.10 17:41:08 INFO  compiling root (1 scala source)
+2025.09.10 17:41:08 INFO  time: compiled root in 0.52s
+2025.09.10 17:41:12 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:41:12 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:41:12 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
+2025.09.10 17:41:29 INFO  compiling root (1 scala source)
+2025.09.10 17:41:31 INFO  time: compiled root in 2.38s
+2025.09.10 17:42:00 INFO  compiling root (1 scala source)
+2025.09.10 17:42:04 INFO  time: compiled root in 3.88s
+2025.09.10 17:42:06 INFO  skipping build import with status 'Installed'
+2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:42:06 WARN  no build target for: C:\coc\moneytalk\project\metals.sbt
+2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:42:06 INFO  no build target found for C:\coc\moneytalk\project\project\metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
+2025.09.10 17:42:06 WARN  no build target for: C:\coc\moneytalk\project\project\metals.sbt
