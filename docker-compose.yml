@@ -1,0 +1,141 @@
+version: "3.9" # Версия формата docker-compose
+services: # Раздел сервисов
+  postgres: # Сервис базы данных Postgres
+    image: postgres:16 # Используем образ Postgres версии 16
+    environment: # Переменные окружения для БД
+      POSTGRES_USER: laundry # Имя пользователя БД
+      POSTGRES_PASSWORD: laundry # Пароль пользователя БД
+      POSTGRES_DB: laundry # Имя базы данных
+    ports: # Пробрасываем порты
+      - "5432:5432" # Экспортируем порт 5432 наружу
+    volumes: # Монтируем тома
+      - pgdata:/var/lib/postgresql/data # Персистентные данные БД
+    healthcheck: # Проверка готовности контейнера
+      test: ["CMD-SHELL", "pg_isready -U laundry"] # Команда проверки готовности
+      interval: 5s # Интервал между проверками
+      timeout: 5s # Таймаут проверки
+      retries: 10 # Количество попыток
+
+  adminer: # Веб-интерфейс для управления БД
+    image: adminer:4 # Образ Adminer
+    ports: # Порты
+      - "8080:8080" # Доступ к Adminer на 8080
+    depends_on: # Зависимости
+      postgres: # Зависит от postgres
+        condition: service_healthy # Ждём здоровья сервиса
+
+  flyway: # Сервис применения миграций Flyway
+    image: flyway/flyway:10 # Образ Flyway
+    command: -connectRetries=60 migrate # Команда выполнения миграций с ретраями
+    environment: # Переменные окружения
+      FLYWAY_URL: jdbc:postgresql://postgres:5432/laundry # URL подключения к БД
+      FLYWAY_USER: laundry # Пользователь БД
+      FLYWAY_PASSWORD: laundry # Пароль БД
+      FLYWAY_SCHEMAS: laundry # Схема по умолчанию
+    volumes: # Том с SQL миграциями
+      - ./modules/migrations/src/main/resources/db/migration:/flyway/sql:ro # Монтируем SQL файлы
+    depends_on: # Зависимости
+      postgres: # Flyway зависит от Postgres
+        condition: service_healthy # Ждём пока БД станет здоровой
+
+  api-gateway: # Шлюз API
+    image: api-gateway:local # Имя образа (собирается отдельно)
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Включаем мок-режим
+      APP_HTTP_PORT: "8081" # Порт сервиса
+    ports: # Порты
+      - "8081:8081" # Пробрасываем порт
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  users-api: # Пользовательский API
+    image: users-api:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8082" # Порт
+    ports: # Порты
+      - "8082:8082" # Проброс порта
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  admin-api: # Админский API
+    image: admin-api:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8083" # Порт
+    ports: # Порты
+      - "8083:8083" # Проброс порта
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  machines-svc: # Сервис машин
+    image: machines-svc:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8084" # Порт
+    ports: # Порты
+      - "8084:8084" # Проброс порта
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  lg-adapter: # Адаптер LG облака
+    image: lg-adapter:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8085" # Порт
+    ports: # Порты
+      - "8085:8085" # Проброс порта
+
+  doser-gateway: # Шлюз дозатора
+    image: doser-gateway:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8086" # Порт
+    ports: # Порты
+      - "8086:8086" # Проброс порта
+
+  payments-svc: # Платёжный сервис
+    image: payments-svc:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8087" # Порт
+    ports: # Порты
+      - "8087:8087" # Проброс порта
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  fiscal-svc: # Фискальный сервис
+    image: fiscal-svc:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8088" # Порт
+    ports: # Порты
+      - "8088:8088" # Проброс порта
+
+  reporting-svc: # Сервис отчётности
+    image: reporting-svc:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8089" # Порт
+    ports: # Порты
+      - "8089:8089" # Проброс порта
+    depends_on: # Зависимости
+      postgres: # Зависит от БД
+        condition: service_healthy # Ждём готовности
+
+  email-svc: # Email сервис
+    image: email-svc:local # Имя образа
+    environment: # Переменные окружения
+      MOCKS_ENABLED: "true" # Мок-режим
+      APP_HTTP_PORT: "8090" # Порт
+    ports: # Порты
+      - "8090:8090" # Проброс порта
+
+volumes: # Определяем тома
+  pgdata: {} # Том для данных Postgres
+

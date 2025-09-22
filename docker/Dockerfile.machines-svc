@@ -1,0 +1,15 @@
+# Используем JRE 21 для запуска Scala приложения
+FROM eclipse-temurin:21-jre AS runtime # Базовый образ JVM
+
+# Рабочая директория
+WORKDIR /opt/app # Каталог приложения
+
+# Копируем собранный jar
+COPY target/scala-3.3.6/machines-svc.jar /opt/app/app.jar # Jar machines-svc
+
+# Открываем порт
+EXPOSE 8084/tcp # Порт machines-svc
+
+# Команда запуска
+ENTRYPOINT ["java", "-jar", "/opt/app/app.jar"] # Запуск приложения
+

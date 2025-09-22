@@ -1,280 +1,535 @@
-2025.03.16 21:20:06 INFO  Started: Metals version 1.5.1 in folders '/home/leo/moneytalk' for client Code - OSS 1.96.4.
-мар. 16, 2025 9:20:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-мар. 16, 2025 9:20:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-мар. 16, 2025 9:20:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-мар. 16, 2025 9:21:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-мар. 16, 2025 9:59:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-2025.03.17 11:00:59 INFO  Started: Metals version 1.5.1 in folders '/home/leo/moneytalk' for client Code - OSS 1.96.4.
-мар. 17, 2025 11:02:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-мар. 17, 2025 11:20:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-WARNING: Unsupported notification method: metals/windowStateDidChange
-2025.03.17 11:20:16 INFO  Shutting down server
-2025.03.17 11:20:16 INFO  shutting down Metals
-2025.03.17 11:20:16 INFO  Exiting server
-2025.03.17 11:20:16 ERROR Unexpected error initializing server: 
-org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1575)
-
-2025.07.01 17:48:19 INFO  Started: Metals version 1.5.3 in folders '/home/leo/moneytalk' for client Code - OSS 1.100.2.
-2025.07.01 17:48:20 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:21 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:23 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
-2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:23 WARN  no build target for: /home/leo/moneytalk/project/metals.sbt
-2025.07.01 17:48:23 WARN  no build target for: /home/leo/moneytalk/project/project/metals.sbt
-2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:23 INFO  no build target found for /home/leo/moneytalk/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:24 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
-2025.07.01 17:48:24 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by net.openhft.hashing.UnsafeAccess (file:/home/leo/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.7/zero-allocation-hashing-0.16.jar)
-2025.07.01 17:48:24 ERROR WARNING: Please consider reporting this to the maintainers of class net.openhft.hashing.UnsafeAccess
-2025.07.01 17:48:24 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
-2025.07.01 17:48:24 ERROR WARNING: A restricted method in java.lang.System has been called
-2025.07.01 17:48:24 ERROR WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/home/leo/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.7/jna-5.12.0.jar)
-2025.07.01 17:48:24 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
-2025.07.01 17:48:24 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
-2025.07.01 17:48:24 ERROR 
-2025.07.01 17:48:24 INFO  [info] welcome to sbt 1.10.7 (Arch Linux Java 24.0.1)
-2025.07.01 17:48:25 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
-2025.07.01 17:48:25 INFO  [info] loading project definition from /home/leo/moneytalk/project/project
-2025.07.01 17:48:27 INFO  [info] loading settings for project moneytalk-build from metals.sbt...
-2025.07.01 17:48:27 INFO  [info] loading project definition from /home/leo/moneytalk/project
-2025.07.01 17:48:27 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:28 INFO  [success] Generated .bloop/moneytalk-build.json
-2025.07.01 17:48:28 INFO  [success] Total time: 1 s, completed 1 июл. 2025 г., 17:48:28
-2025.07.01 17:48:27 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:28 INFO  [info] loading settings for project root from build.sbt...
-2025.07.01 17:48:28 INFO  [info] set current project to moneytalk (in build file:/home/leo/moneytalk/)
-2025.07.01 17:48:28 INFO  [success] Generated .bloop/root-test.json
-2025.07.01 17:48:28 INFO  [success] Generated .bloop/root.json
-2025.07.01 17:48:28 INFO  [success] Total time: 0 s, completed 1 июл. 2025 г., 17:48:29
-2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:29 INFO  time: ran 'sbt bloopInstall' in 6.16s
-2025.07.01 17:48:29 INFO  Attempting to connect to the build server...
-2025.07.01 17:48:29 INFO  Found a Bloop server running
-2025.07.01 17:48:29 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.01 17:48:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.07.01 17:48:29 INFO  Attempting to connect to the build server...
-2025.07.01 17:48:29 INFO  Found a Bloop server running
-2025.07.01 17:48:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.07.01 17:48:33 INFO  time: Connected to build server in 3.91s
-2025.07.01 17:48:33 INFO  Connected to Build server: Bloop v2.0.10
-2025.07.01 17:48:37 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
-2025.07.01 17:48:39 INFO  time: indexed workspace in 5.98s
-2025.07.01 17:48:39 INFO  compiling root (1 scala source)
-2025.07.01 17:48:41 INFO  time: compiled root in 1.74s
-2025.07.01 17:51:30 INFO  compiling root (1 scala source)
-2025.07.01 17:51:30 INFO  time: compiled root in 0.58s
-июл. 01, 2025 5:58:36 PM scala.meta.internal.pc.CompilerAccess handleError
-SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-36-071.md
-2025.07.01 17:58:37 INFO  compiling root (1 scala source)
-2025.07.01 17:58:37 INFO  time: compiled root in 0.12s
-июл. 01, 2025 5:58:38 PM scala.meta.internal.pc.CompilerAccess handleError
-SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-38-937.md
-июл. 01, 2025 5:58:39 PM scala.meta.internal.pc.CompilerAccess handleError
-SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_compiler-error_(root)_17-58-39-862.md
-2025.07.01 17:58:48 INFO  compiling root (1 scala source)
-2025.07.01 17:58:48 INFO  time: compiled root in 94ms
-2025.07.01 18:07:46 INFO  compiling root (1 scala source)
-2025.07.01 18:07:46 INFO  time: compiled root in 0.36s
-июл. 01, 2025 6:08:22 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-08-22-429.md)
-2025.07.01 18:08:51 INFO  compiling root (1 scala source)
-2025.07.01 18:08:51 INFO  time: compiled root in 0.51s
-июл. 01, 2025 6:09:32 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc:  (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-09-32-170.md)
-2025.07.01 18:09:43 INFO  compiling root (1 scala source)
-2025.07.01 18:09:43 INFO  time: compiled root in 0.41s
-2025.07.01 18:12:16 INFO  compiling root (1 scala source)
-2025.07.01 18:12:16 INFO  time: compiled root in 0.28s
-2025.07.01 18:13:21 INFO  compiling root (1 scala source)
-2025.07.01 18:13:21 INFO  time: compiled root in 0.34s
-июл. 01, 2025 6:13:29 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-08-22-429.md)
-2025.07.01 18:14:06 INFO  compiling root (1 scala source)
-2025.07.01 18:14:06 INFO  time: compiled root in 0.25s
-июл. 01, 2025 6:14:21 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-2025.07.01 18:14:23 INFO  compiling root (1 scala source)
-2025.07.01 18:14:23 INFO  time: compiled root in 0.24s
-2025.07.01 18:14:42 INFO  compiling root (1 scala source)
-2025.07.01 18:14:42 INFO  time: compiled root in 0.15s
-2025.07.01 18:14:58 INFO  compiling root (1 scala source)
-2025.07.01 18:14:58 INFO  time: compiled root in 0.28s
-июл. 01, 2025 6:15:33 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:15:44 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-2025.07.01 18:15:50 INFO  compiling root (1 scala source)
-2025.07.01 18:15:50 INFO  time: compiled root in 0.22s
-2025.07.01 18:17:04 INFO  compiling root (1 scala source)
-2025.07.01 18:17:04 INFO  time: compiled root in 0.22s
-июл. 01, 2025 6:19:19 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:19:20 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-2025.07.01 18:21:17 INFO  compiling root (1 scala source)
-2025.07.01 18:21:17 INFO  time: compiled root in 99ms
-2025.07.01 18:21:55 INFO  compiling root (1 scala source)
-2025.07.01 18:21:55 INFO  time: compiled root in 83ms
-2025.07.01 18:22:20 INFO  compiling root (1 scala source)
-2025.07.01 18:22:20 INFO  time: compiled root in 90ms
-2025.07.01 18:22:25 INFO  compiling root (1 scala source)
-2025.07.01 18:22:25 INFO  time: compiled root in 71ms
-июл. 01, 2025 6:23:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:23:43 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-2025.07.01 18:23:49 INFO  compiling root (1 scala source)
-2025.07.01 18:23:49 INFO  time: compiled root in 80ms
-июл. 01, 2025 6:25:16 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:25:36 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:25:50 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-июл. 01, 2025 6:25:51 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
-WARNING: empty definition using pc, found symbol in pc: `<none>`. (full report at: /home/leo/moneytalk/.metals/.reports/metals-full/2025-07-01/r_empty-definition_(root)_18-14-21-067.md)
-2025.07.01 18:25:51 INFO  compiling root (1 scala source)
-2025.07.01 18:25:51 INFO  time: compiled root in 81ms
-2025.07.01 18:25:54 INFO  compiling root (1 scala source)
-2025.07.01 18:25:54 INFO  time: compiled root in 79ms
-2025.07.01 18:25:58 INFO  compiling root (1 scala source)
-2025.07.01 18:25:58 INFO  time: compiled root in 63ms
-2025.07.01 18:26:00 INFO  compiling root (1 scala source)
-2025.07.01 18:26:00 INFO  time: compiled root in 59ms
-2025.07.01 18:27:12 INFO  compiling root (1 scala source)
-2025.07.01 18:27:12 INFO  time: compiled root in 0.21s
-2025.07.01 18:29:35 INFO  compiling root (1 scala source)
-2025.07.01 18:29:35 INFO  time: compiled root in 0.2s
-2025.07.01 18:29:42 INFO  compiling root (1 scala source)
-2025.07.01 18:29:42 INFO  time: compiled root in 0.17s
-2025.07.01 18:31:27 INFO  compiling root (1 scala source)
-2025.07.01 18:31:27 INFO  time: compiled root in 0.19s
-2025.07.01 18:34:15 INFO  compiling root (1 scala source)
-2025.07.01 18:34:15 INFO  time: compiled root in 0.41s
-2025.07.01 18:34:45 INFO  compiling root (1 scala source)
-2025.07.01 18:34:45 INFO  time: compiled root in 0.16s
-2025.07.01 18:35:07 INFO  compiling root (1 scala source)
-2025.07.01 18:35:07 INFO  time: compiled root in 0.14s
-2025.07.01 18:35:31 INFO  compiling root (1 scala source)
-2025.07.01 18:35:31 INFO  time: compiled root in 0.14s
-2025.07.01 18:36:07 INFO  compiling root (1 scala source)
-2025.07.01 18:36:07 INFO  time: compiled root in 0.17s
-2025.07.01 19:10:19 INFO  Shut down connection with build server.
-2025.07.01 19:10:19 INFO  Shut down connection with build server.
-2025.07.03 14:31:57 INFO  Started: Metals version 1.5.3 in folders '/home/leo/moneytalk' for client Code - OSS 1.100.2.
-2025.07.03 14:31:58 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.03 14:32:00 INFO  no build target found for /home/leo/moneytalk/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.07.03 14:32:00 INFO  Attempting to connect to the build server...
-2025.07.03 14:32:00 INFO  No running Bloop server found, starting one.
-2025.07.03 14:32:02 INFO  Starting compilation server
-2025.07.03 14:32:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.07.03 14:32:03 INFO  Attempting to connect to the build server...
-2025.07.03 14:32:03 INFO  Found a Bloop server running
-2025.07.03 14:32:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.07.03 14:32:03 INFO  time: Connected to build server in 2.87s
-2025.07.03 14:32:03 INFO  Connected to Build server: Bloop v2.0.10
-2025.07.03 14:32:03 INFO  time: Imported build in 0.15s
-2025.07.03 14:32:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
-2025.07.03 14:32:05 INFO  time: indexed workspace in 2.91s
-2025.07.03 14:32:24 INFO  Shutting down server
-2025.07.03 14:32:24 INFO  shutting down Metals
-2025.07.03 14:32:24 INFO  Shut down connection with build server.
-2025.07.03 14:32:24 INFO  Shut down connection with build server.
-2025.07.03 14:32:24 INFO  Exiting server
-2025.09.10 18:10:42 INFO  Started: Metals version 1.6.2 in folders '/home/leo/Документы/moneytalk' for client Cursor 1.99.3.
-2025.09.10 18:10:42 INFO  Attempting to connect to the build server...
-2025.09.10 18:10:42 INFO  Found a Bloop server running
-2025.09.10 18:10:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.09.10 18:10:43 INFO  Attempting to connect to the build server...
-2025.09.10 18:10:43 INFO  Found a Bloop server running
-2025.09.10 18:10:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 18:10:46 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 18:10:48 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 18:10:48 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.10 18:11:03 ERROR Timeout waiting for 'build/initialize' response
-2025.09.10 18:11:03 WARN  Retrying connection to the build server Bloop
-2025.09.10 18:11:03 INFO  Found a Bloop server running
-2025.09.10 18:11:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.09.10 18:11:09 INFO  time: Connected to build server in 26s
-2025.09.10 18:11:09 INFO  Connected to Build server: Bloop v2.0.10
-2025.09.10 18:11:28 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
-2025.09.10 18:11:31 INFO  time: indexed workspace in 22s
-2025.09.10 18:11:31 INFO  compiling root (1 scala source)
-Flag -Xsemanticdb set repeatedly
-2025.09.10 18:11:31 WARN  Flag -Xsemanticdb set repeatedly
-2025.09.10 18:11:34 INFO  time: compiled root in 2.56s
-Flag -Xsemanticdb set repeatedly
-2025.09.10 18:11:34 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
-2025.09.10 18:11:35 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:11:39 INFO  Disconnecting from Bloop session...
-2025.09.10 18:11:39 INFO  Shut down connection with build server.
-2025.09.10 18:11:39 INFO  Shut down connection with build server.
-2025.09.10 18:11:39 INFO  Attempting to connect to the build server...
-2025.09.10 18:11:39 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
-Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
-If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
-2025.09.10 18:11:39 INFO  No running Bloop server found, starting one.
-2025.09.10 18:11:41 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:11:44 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-сент. 10, 2025 6:11:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-2025.09.10 18:11:54 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:11:56 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:11:56 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:11:59 INFO  no build target found for /home/leo/Документы/moneytalk/build.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:12:02 INFO  Starting compilation server
-2025.09.10 18:12:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.09.10 18:12:03 INFO  Attempting to connect to the build server...
-2025.09.10 18:12:03 INFO  Found a Bloop server running
-2025.09.10 18:12:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/leo/Документы/moneytalk/project/.metals/bsp.trace.json or /home/leo/.cache/metals/bsp.trace.json
-2025.09.10 18:12:03 INFO  time: Connected to build server in 24s
-2025.09.10 18:12:03 INFO  Connected to Build server: Bloop v2.0.13
-2025.09.10 18:12:04 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-24-openjdk/src.zip, /usr/lib/jvm/java-24-openjdk/lib/src.zip. Java symbols will not be available.
-2025.09.10 18:12:04 INFO  time: indexed workspace in 1.06s
-Flag -Xsemanticdb set repeatedly
-сент. 10, 2025 6:12:04 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
-INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
-2025.09.10 18:12:05 INFO  Created report: Optional[file:///home/leo/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/moneytalk/Main.scala]
-2025.09.10 18:12:05 INFO  java.lang.AssertionError: assertion failed: (List(Stamp(2024-11-03T20:45:23Z,57535,(dev=812,ino=5647306))),0) (full report at: "/home/leo/Документы/moneytalk/.metals/.reports/metals-full/2025-09-10/r_compiler-error_18-12-05-016.md")
-2025.09.10 18:12:05 INFO  compiling root (1 scala source)
-2025.09.10 18:12:05 WARN  Flag -Xsemanticdb set repeatedly
-сент. 10, 2025 6:12:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
-INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
-2025.09.10 18:12:06 INFO  Created report: Optional[file:///home/leo/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/moneytalk/build.sbt]
-2025.09.10 18:12:06 INFO  java.lang.AssertionError: assertion failed: (List(Stamp(2023-08-24T13:36:54Z,1156200,(dev=812,ino=4992006))),0) (full report at: "/home/leo/Документы/moneytalk/.metals/.reports/metals-full/2025-09-10/r_compiler-error_(moneytalk-build)_18-12-06-153.md")
-2025.09.10 18:12:07 INFO  time: compiled root in 2.13s
-сент. 10, 2025 6:12:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
-INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
-Flag -Xsemanticdb set repeatedly
-2025.09.10 18:13:21 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:13:21 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:13:21 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
-2025.09.10 18:13:44 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:13:44 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:13:44 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
-2025.09.10 18:14:02 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:14:02 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:14:02 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
-2025.09.10 18:14:22 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:14:22 INFO  no build target found for /home/leo/Документы/moneytalk/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.5
-2025.09.10 18:14:22 WARN  no build target for: /home/leo/Документы/moneytalk/project/metals.sbt
+2025.09.22 21:06:06 INFO  Started: Metals version 1.6.2 in folders '/home/leo/sergeyg' for client Cursor 1.99.3.
+2025.09.22 21:23:13 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:33 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:23:51 INFO  no build target found for /home/leo/sergeyg/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:51 INFO  no build target found for /home/leo/sergeyg/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:51 INFO  no build target found for /home/leo/sergeyg/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:51 INFO  no build target found for /home/leo/sergeyg/project/plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:23:51 WARN  no build target for: /home/leo/sergeyg/project/plugins.sbt
+2025.09.22 21:24:14 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:14 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:14 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:14 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:24:14 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:16 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:16 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:16 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:16 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala
+2025.09.22 21:24:16 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:18 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:19 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala
+2025.09.22 21:24:19 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:20 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:20 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:20 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:19 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:20 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala
+2025.09.22 21:24:21 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:21 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:21 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:21 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala
+2025.09.22 21:24:21 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:50 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:51 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala
+2025.09.22 21:24:50 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:57 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:57 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:57 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:24:57 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala
+2025.09.22 21:24:57 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:01 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:01 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:01 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:01 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:01 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala
+2025.09.22 21:25:07 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:07 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:07 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:25:07 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala
+2025.09.22 21:25:07 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:28 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:28 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:26:28 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:37 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:37 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:37 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:37 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:26:37 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:47 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:26:47 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala
+2025.09.22 21:26:47 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:27:02 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:27:02 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:27:02 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:27:02 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:27:02 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/project/plugins.sbt
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Logging.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala
+2025.09.22 21:27:13 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:28:25 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:25 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:25 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:28:30 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:30 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:28:30 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:33 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:33 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:33 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:28:47 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:47 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:28:47 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:29:07 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:07 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:07 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:29:25 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:25 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:25 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:29:58 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:58 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:29:58 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:30:26 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:30:26 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:30:26 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:31:18 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:31:18 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:31:18 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:31:48 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:31:48 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:31:48 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:32:40 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:32:40 INFO  no build target found for /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:32:40 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:33:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:33:15 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:33:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:33:21 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:33:21 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:33:21 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:33:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:33:53 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:33:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:34:23 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:34:23 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:34:23 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:34:34 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:34:34 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:34:34 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:34:55 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 21:34:55 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:34:55 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:34:55 WARN  no build target for: /home/leo/sergeyg/modules/common/src/main/scala/common/Config.scala
+2025.09.22 21:35:29 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:29 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:29 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:29 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 21:35:29 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:34 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:34 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala
+2025.09.22 21:35:34 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:47 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:47 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:47 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:48 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala
+2025.09.22 21:35:48 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:54 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:35:54 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala
+2025.09.22 21:35:54 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:32 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:32 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:32 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:33 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:33 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala
+2025.09.22 21:36:38 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:36:38 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala
+2025.09.22 21:36:38 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Main.scala
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Main.scala
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/HttpServer.scala
+2025.09.22 21:37:06 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Main.scala
+2025.09.22 21:37:36 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:36 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:36 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:36 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:36 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala
+2025.09.22 21:37:41 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:41 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:41 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala
+2025.09.22 21:37:54 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:54 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:54 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:54 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:37:54 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala
+2025.09.22 21:38:02 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:02 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:02 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala
+2025.09.22 21:38:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:11 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala
+2025.09.22 21:38:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:20 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala
+2025.09.22 21:38:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:29 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:29 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:29 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:29 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:29 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala
+2025.09.22 21:38:42 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:42 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala
+2025.09.22 21:38:42 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:50 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:50 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:50 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:50 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala
+2025.09.22 21:38:50 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:56 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:38:56 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala
+2025.09.22 21:38:56 INFO  no build target found for /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:03 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:03 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:03 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:03 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala
+2025.09.22 21:39:03 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:08 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:09 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala
+2025.09.22 21:39:09 INFO  no build target found for /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Main.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Main.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Main.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/Main.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Main.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/reporting-svc/src/main/scala/reportingsvc/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/HttpServer.scala
+2025.09.22 21:39:32 WARN  no build target for: /home/leo/sergeyg/modules/email-svc/src/main/scala/emailsvc/Main.scala
+2025.09.22 21:43:16 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:43:16 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:43:16 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:43:16 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:43:16 WARN  no build target for: /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala
+2025.09.22 21:43:42 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:43:42 WARN  no build target for: /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala
+2025.09.22 21:43:42 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:44:22 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:44:22 INFO  no build target found for /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:44:22 WARN  no build target for: /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala
+2025.09.22 21:44:42 WARN  no build target for: /home/leo/sergeyg/modules/migrations/src/test/scala/MigrationsSpec.scala
+2025.09.22 21:45:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:20 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:20 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala
+2025.09.22 21:45:27 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:27 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:27 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:27 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala
+2025.09.22 21:45:27 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:33 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:33 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:33 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:45:33 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala
+2025.09.22 21:45:33 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:02 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/Domain.scala
+2025.09.22 21:46:02 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/StatusLogic.scala
+2025.09.22 21:46:02 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/StatusLogicSpec.scala
+2025.09.22 21:46:20 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:20 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:20 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:20 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:20 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala
+2025.09.22 21:46:32 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:32 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:32 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:32 INFO  no build target found for /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:46:32 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala
+2025.09.22 21:46:55 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/main/scala/dosergateway/Protocol.scala
+2025.09.22 21:46:55 WARN  no build target for: /home/leo/sergeyg/modules/doser-gateway/src/test/scala/dosergateway/ProtocolSpec.scala
+2025.09.22 21:47:24 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:24 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:24 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:24 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala
+2025.09.22 21:47:24 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:39 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:39 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:39 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:39 INFO  no build target found for /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:47:39 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala
+2025.09.22 21:48:06 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/main/scala/machinessvc/Domain.scala
+2025.09.22 21:48:06 WARN  no build target for: /home/leo/sergeyg/modules/machines-svc/src/test/scala/machinessvc/DomainSpec.scala
+2025.09.22 21:48:27 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:27 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:27 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:27 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:27 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala
+2025.09.22 21:48:36 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:36 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:36 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:36 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala
+2025.09.22 21:48:36 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:44 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:44 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:44 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:48:44 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala
+2025.09.22 21:48:44 INFO  no build target found for /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:49:07 WARN  no build target for: /home/leo/sergeyg/modules/lg-adapter/src/main/scala/lgadapter/Client.scala
+2025.09.22 21:49:07 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/Receipt.scala
+2025.09.22 21:49:07 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/ReceiptSpec.scala
+2025.09.22 21:49:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:49:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:49:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:49:51 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala
+2025.09.22 21:49:51 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:03 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:03 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:03 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:03 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:03 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala
+2025.09.22 21:50:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:11 INFO  no build target found for /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:11 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala
+2025.09.22 21:50:21 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:21 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:21 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:21 INFO  no build target found for /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:50:21 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala
+2025.09.22 21:50:46 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/test/scala/paymentssvc/SberClientSpec.scala
+2025.09.22 21:50:46 WARN  no build target for: /home/leo/sergeyg/modules/payments-svc/src/main/scala/paymentssvc/SberClient.scala
+2025.09.22 21:50:46 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/test/scala/fiscalsvc/OrangeDataClientSpec.scala
+2025.09.22 21:50:46 WARN  no build target for: /home/leo/sergeyg/modules/fiscal-svc/src/main/scala/fiscalsvc/OrangeDataClient.scala
+2025.09.22 21:51:29 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:51:29 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:51:29 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:51:47 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:51:47 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:51:47 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:52:13 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:52:13 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:52:13 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:52:37 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/HealthSpec.scala
+2025.09.22 21:52:37 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:53:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:53:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:53:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:53:53 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala
+2025.09.22 21:53:53 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:03 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:03 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:54:03 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 9:54:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_21-54-03-833.md
+2025.09.22 21:54:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:15 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala
+2025.09.22 21:54:15 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:54:41 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 21:54:41 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MachinesSpec.scala
+2025.09.22 21:54:41 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala
+2025.09.22 21:54:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 9:54:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_21-54-41-726.md
+2025.09.22 21:59:08 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:08 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:08 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:09 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:09 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala
+2025.09.22 21:59:20 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:20 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:20 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala
+сент. 22, 2025 9:59:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_21-59-21-024.md
+2025.09.22 21:59:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:35 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala
+2025.09.22 21:59:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:46 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 21:59:46 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala
+2025.09.22 21:59:46 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 9:59:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_21-59-46-859.md
+2025.09.22 22:00:18 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala
+2025.09.22 22:00:18 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/InventorySpec.scala
+2025.09.22 22:00:18 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala
+2025.09.22 22:00:18 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 10:00:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_22-00-18-452.md
+2025.09.22 22:00:54 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:00:54 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:00:54 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:01:13 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:01:13 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:01:13 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:01:13 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala
+2025.09.22 22:01:13 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:01:45 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:01:45 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/HealthSpec.scala
+2025.09.22 22:02:49 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:49 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:49 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:49 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:49 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala
+2025.09.22 22:02:58 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:58 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:58 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:58 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:02:58 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala
+2025.09.22 22:03:28 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/ValidatorsSpec.scala
+2025.09.22 22:03:28 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Validators.scala
+2025.09.22 22:04:16 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:16 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:16 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:16 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:16 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala
+2025.09.22 22:04:30 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:30 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:30 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:30 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:30 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala
+2025.09.22 22:04:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:41 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala
+2025.09.22 22:04:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:04:56 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala
+2025.09.22 22:04:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:05:43 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:05:43 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:05:43 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala
+2025.09.22 22:05:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:05:56 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:05:56 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala
+2025.09.22 22:06:27 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:06:27 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:06:27 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala
+2025.09.22 22:06:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:06:35 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:06:35 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala
+2025.09.22 22:07:11 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:11 INFO  no build target found for /home/leo/sergeyg/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:11 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 22:07:23 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:23 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:23 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala
+2025.09.22 22:07:39 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:39 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:07:39 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala
+2025.09.22 22:08:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:08:41 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:08:41 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala
+2025.09.22 22:08:55 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:08:55 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala
+2025.09.22 22:08:55 INFO  no build target found for /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/TapirEndpoints.scala
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/test/scala/adminapi/TapirSpec.scala
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/TapirSpec.scala
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/build.sbt
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/TapirEndpoints.scala
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/Models.scala
+2025.09.22 22:09:29 WARN  no build target for: /home/leo/sergeyg/modules/admin-api/src/main/scala/adminapi/Models.scala
+2025.09.22 22:09:55 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:09:55 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:09:55 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+сент. 22, 2025 10:09:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_22-09-55-423.md
+2025.09.22 22:10:12 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:10:12 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:10:12 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:10:12 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:10:12 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala
+2025.09.22 22:10:42 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:10:42 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 22:10:42 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 10:10:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_22-10-42-807.md
+2025.09.22 22:11:11 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala
+2025.09.22 22:11:11 WARN  no build target for: /home/leo/sergeyg/modules/users-api/src/test/scala/usersapi/MetricsSpec.scala
+2025.09.22 22:11:11 INFO  no build target found for /home/leo/sergeyg/modules/users-api/src/main/scala/usersapi/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 10:11:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/leo/sergeyg/.metals/.reports/metals-full/2025-09-22/r_compiler-error_22-11-11-467.md
+2025.09.22 22:12:31 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:31 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:31 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:31 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:31 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala
+2025.09.22 22:12:43 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:43 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:43 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala
+2025.09.22 22:12:58 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:12:58 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:12:58 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:13:16 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:13:16 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:13:16 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:13:16 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala
+2025.09.22 22:13:16 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:05 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:05 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala
+2025.09.22 22:14:05 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:15 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:15 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:14:15 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:45 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:14:45 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:14:45 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:15:26 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:15:26 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:15:26 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:15:59 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:15:59 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:15:59 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:16:37 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:16:37 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala
+2025.09.22 22:16:37 INFO  no build target found for /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
+2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala
+2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala

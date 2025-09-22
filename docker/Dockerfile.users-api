@@ -1,0 +1,15 @@
+# Используем JRE 21 для запуска Scala приложения
+FROM eclipse-temurin:21-jre AS runtime # Базовый образ для запуска JVM
+
+# Рабочая директория
+WORKDIR /opt/app # Устанавливаем рабочую директорию
+
+# Копируем собранный jar
+COPY target/scala-3.3.6/users-api.jar /opt/app/app.jar # Копируем jar users-api
+
+# Открываем порт
+EXPOSE 8082/tcp # Публикуем порт 8082
+
+# Команда запуска
+ENTRYPOINT ["java", "-jar", "/opt/app/app.jar"] # Запуск приложения
+

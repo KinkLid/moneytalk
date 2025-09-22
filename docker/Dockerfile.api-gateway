@@ -1,0 +1,15 @@
+# Используем официальный образ Eclipse Temurin JRE для запуска JVM
+FROM eclipse-temurin:21-jre AS runtime # Базовый слой с JRE 21
+
+# Устанавливаем рабочую директорию внутри контейнера
+WORKDIR /opt/app # Рабочая директория приложения
+
+# Ожидаем, что fat-jar будет скопирован на этап сборки вне Docker (sbt assembly/packaging позже)
+COPY target/scala-3.3.6/api-gateway.jar /opt/app/app.jar # Копируем jar приложения
+
+# Экспортируем порт сервиса наружу
+EXPOSE 8081/tcp # Открываем порт 8081 для api-gateway
+
+# Команда запуска приложения
+ENTRYPOINT ["java", "-jar", "/opt/app/app.jar"] # Запуск jar через java
+
