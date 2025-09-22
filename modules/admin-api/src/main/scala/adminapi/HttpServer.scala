@@ -13,15 +13,47 @@ import org.http4s.circe.* // Поддержка Circe
 import io.circe.syntax.* // Синтаксис .asJson
 import adminapi.JsonCodecs.given // Имплиситы кодеков
 import adminapi.* // Модели
+import sttp.apispec.openapi.OpenAPI // Тип OpenAPI
+import sttp.tapir.* // Базовые типы Tapir
+import sttp.tapir.apispec.openapi.Info // Метаданные
+import sttp.tapir.docs.openapi.OpenAPIDocsInterpreter // Генератор OpenAPI
+import sttp.tapir.openapi.circe.yaml.* // Экспорт YAML
 
 // Простой HTTP-сервер с эндпоинтом здоровья
 object HttpServer: // Объявляем объект сервера
+  // Счётчик обращений
+  private var metricHits: Long = 0L // Счётчик для /metrics
   // Роуты приложения
   private val routes: HttpRoutes[cats.effect.IO] = HttpRoutes.of[cats.effect.IO] { // Определяем маршруты
     case GET -> Root / "health" => Ok("OK") // Возвращаем 200 OK на /health
+    case GET -> Root / "metrics" => // Эндпоинт метрик
+      metricHits = metricHits + 1 // Инкремент
+      Ok(s"admin_api_metric_hits ${metricHits}\n").map(_.withContentType(`Content-Type`(MediaType.text.plain))) // Текстовая метрика
     case GET -> Root / "inventory" => // Эндпоинт инвентаря
       val resp = InventoryResponse(List(InventoryItem("m1", 500, 200))) // Заглушка данных
       Ok(resp.asJson) // Возвращаем JSON
+    case req @ POST -> Root / "machines" / machineId / "start" => // Принудительный старт
+      req.asJsonDecode[ForceStartRequest].flatMap { _ => // Декодируем тело
+        Ok(CommandResponse(true, s"started ${machineId}").asJson) // Возвращаем успех
+      }
+    case POST -> Root / "machines" / machineId / "stop" => // Принудительная остановка
+      Ok(CommandResponse(true, s"stopped ${machineId}").asJson) // Возвращаем успех
+    case req @ POST -> Root / "dose" => // Ручное дозирование
+      req.asJsonDecode[AdminDoseRequest].flatMap { d => // Декодируем
+        Ok(CommandResponse(true, s"dosed ${d.channel}:${d.ml}").asJson) // Возвращаем успех
+      }
+    case GET -> Root / "reports" / reportDate => // Получение отчёта
+      Ok(ReportResponse(reportDate, sent = true).asJson) // Возвращаем заглушку
+    case GET -> Root / "openapi.yaml" => // Спецификация OpenAPI
+      val endpoints = List( // Список эндпоинтов
+        TapirEndpoints.inventoryEndpoint, // /inventory
+        TapirEndpoints.forceStartEndpoint, // /machines/{id}/start
+        TapirEndpoints.forceStopEndpoint, // /machines/{id}/stop
+        TapirEndpoints.adminDoseEndpoint, // /dose
+        TapirEndpoints.reportEndpoint // /reports/{date}
+      ) // Конец списка
+      val docs = OpenAPIDocsInterpreter().toOpenAPI(endpoints, Info("admin-api", "0.1.0")) // Генерация OpenAPI
+      Ok(docs.toYaml).map(_.withContentType(`Content-Type`(MediaType.text.yaml))) // Отдаём YAML
   } // Завершаем определение роутов
 
   // Запуск сервера как ZIO-эффект

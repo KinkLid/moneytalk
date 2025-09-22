@@ -1,0 +1,31 @@
+# Получить здоровье users-api
+GET http://localhost:8082/health
+
+# Получить список машин
+GET http://localhost:8082/machines
+
+# Создать заказ
+POST http://localhost:8082/orders
+Content-Type: application/json
+
+{
+  "machineId": "m1",
+  "programCode": "Q30",
+  "userEmail": "user@example.com"
+}
+
+# Инициация оплаты
+POST http://localhost:8082/payments/init
+Content-Type: application/json
+
+{
+  "orderId": "<ORDER_ID>"
+}
+
+# Получить статус заказа
+GET http://localhost:8082/orders/<ORDER_ID>
+
+# OpenAPI спецификация
+GET http://localhost:8082/openapi.yaml
+
+

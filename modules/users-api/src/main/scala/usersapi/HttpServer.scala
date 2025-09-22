@@ -15,6 +15,11 @@ import usersapi.JsonCodecs.given // Имплиситы кодеков
 import usersapi.* // Импортируем модели
 import zio.ZIO // Импортируем только тип ZIO, чтобы избежать конфликта IO
 import zio.interop.catz.* // Интероп ZIO <-> Cats Effect
+import sttp.apispec.openapi.OpenAPI // Тип OpenAPI
+import sttp.tapir.* // Базовые типы Tapir
+import sttp.tapir.apispec.openapi.Info // Информация спецификации
+import sttp.tapir.docs.openapi.OpenAPIDocsInterpreter // Генератор OpenAPI
+import sttp.tapir.openapi.circe.yaml.* // Экспорт в YAML
 
 // Простой HTTP-сервер с эндпоинтом здоровья
 object HttpServer: // Объявляем объект сервера
@@ -34,6 +39,27 @@ object HttpServer: // Объявляем объект сервера
     case GET -> Root / "metrics" => // Эндпоинт метрик Prometheus-подобный
       val body = s"users_api_health_hits ${healthHits}\n" // Формируем метрику
       Ok(body).map(_.withContentType(`Content-Type`(MediaType.text.plain))) // Отдаём text/plain
+    case req @ POST -> Root / "orders" => // Создание заказа
+      req.asJsonDecode[CreateOrderRequest].flatMap { in => // Декодируем тело
+        val orderId = java.util.UUID.randomUUID().toString // Генерируем id
+        Ok(CreateOrderResponse(orderId, "NEW").asJson) // Возвращаем моковый ответ
+      }
+    case req @ POST -> Root / "payments" / "init" => // Инициация платежа
+      req.asJsonDecode[PaymentInitRequest].flatMap { in => // Декодируем тело
+        val paymentId = s"pm_${in.orderId}" // Генерируем paymentId
+        Ok(PaymentInitResponse(paymentId, "PENDING").asJson) // Возвращаем PENDING
+      }
+    case GET -> Root / "orders" / orderId => // Статус заказа
+      Ok(OrderStatusResponse(orderId, "PAID").asJson) // Мокаем статус PAID
+    case GET -> Root / "openapi.yaml" => // Эндпоинт выдачи OpenAPI
+      val endpoints = List( // Собираем эндпоинты
+        TapirEndpoints.machinesEndpoint, // /machines
+        TapirEndpoints.createOrderEndpoint, // /orders (POST)
+        TapirEndpoints.initPaymentEndpoint, // /payments/init
+        TapirEndpoints.orderStatusEndpoint // /orders/{orderId}
+      ) // Конец списка
+      val docs = OpenAPIDocsInterpreter().toOpenAPI(endpoints, Info("users-api", "0.1.0")) // Генерируем OpenAPI
+      Ok(docs.toYaml).map(_.withContentType(`Content-Type`(MediaType.text.yaml))) // Возвращаем YAML
   } // Завершаем определение роутов
 
   // Публичный httpApp для тестов

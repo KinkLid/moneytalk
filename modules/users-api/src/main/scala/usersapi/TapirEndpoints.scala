@@ -16,3 +16,23 @@ object TapirEndpoints: // Объявляем объект с эндпоинта�
       .in("machines") // Путь /machines
       .out(jsonBody[MachinesResponse]) // Тело ответа JSON
 
+  // Эндпоинт создания заказа
+  val createOrderEndpoint: PublicEndpoint[CreateOrderRequest, Unit, CreateOrderResponse, Any] = // Описание
+    endpoint.post // POST метод
+      .in("orders") // Путь /orders
+      .in(jsonBody[CreateOrderRequest]) // Входной JSON
+      .out(jsonBody[CreateOrderResponse]) // Выходной JSON
+
+  // Эндпоинт инициации платежа
+  val initPaymentEndpoint: PublicEndpoint[PaymentInitRequest, Unit, PaymentInitResponse, Any] = // Описание
+    endpoint.post // POST метод
+      .in("payments" / "init") // Путь /payments/init
+      .in(jsonBody[PaymentInitRequest]) // Входной JSON
+      .out(jsonBody[PaymentInitResponse]) // Выходной JSON
+
+  // Эндпоинт статуса заказа
+  val orderStatusEndpoint: PublicEndpoint[String, Unit, OrderStatusResponse, Any] = // Описание
+    endpoint.get // GET метод
+      .in("orders" / path[String]("orderId")) // Путь /orders/{orderId}
+      .out(jsonBody[OrderStatusResponse]) // Выходной JSON
+

@@ -1,0 +1,8 @@
+# Здоровье api-gateway
+GET http://localhost:8081/health
+
+# Кто я (JWT мок: Bearer user/admin)
+GET http://localhost:8081/whoami
+Authorization: Bearer user
+
+

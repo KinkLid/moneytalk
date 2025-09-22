@@ -59,8 +59,8 @@ lazy val commonSettings = Seq( // Определяем общие настрой
     "com.softwaremill.sttp.tapir" %% "tapir-core" % tapirVersion, // Базовые типы Tapir
     "com.softwaremill.sttp.tapir" %% "tapir-http4s-server" % tapirVersion, // Сервер http4s для Tapir
     "com.softwaremill.sttp.tapir" %% "tapir-json-circe" % tapirVersion, // JSON через Circe для Tapir
-    "com.softwaremill.sttp.tapir" %% "tapir-openapi-docs" % tapirVersion % Test, // Генерация OpenAPI (только для тестов)
-    // OpenAPI экспорт добавим позже после стабилизации версий // Временно исключено
+    "com.softwaremill.sttp.tapir" %% "tapir-openapi-docs" % tapirVersion, // Генерация OpenAPI (рантайм)
+    "com.softwaremill.sttp.tapir" %% "tapir-openapi-circe-yaml" % tapirVersion, // Экспорт OpenAPI в YAML
     "dev.zio" %% "zio-test" % zioVersion % Test, // ZIO Test ядро
     "dev.zio" %% "zio-test-sbt" % zioVersion % Test, // Интеграция с sbt
     "com.dimafeng" %% "testcontainers-scala-postgresql" % testcVersion % Test, // Testcontainers Postgres

@@ -9,12 +9,26 @@ import org.http4s.ember.server.* // Лёгкий сервер http4s
 import com.comcast.ip4s.* // Типы адресов/портов
 import zio.ZIO // Импортируем только тип ZIO
 import zio.interop.catz.* // Интероп ZIO <-> Cats Effect
+import org.http4s.circe.* // Поддержка Circe
+import io.circe.syntax.* // Синтаксис .asJson
+import paymentssvc.JsonCodecs.given // Имплиситы кодеков
 
 // Простой HTTP-сервер с эндпоинтом здоровья
 object HttpServer: // Объявляем объект сервера
+  // Счётчик обращений
+  private var metricHits: Long = 0L // Счётчик метрик
   // Роуты приложения
   private val routes: HttpRoutes[cats.effect.IO] = HttpRoutes.of[cats.effect.IO] { // Определяем маршруты
     case GET -> Root / "health" => Ok("OK") // Возвращаем 200 OK на /health
+    case GET -> Root / "metrics" => // Эндпоинт метрик
+      metricHits = metricHits + 1 // Инкремент
+      Ok(s"payments_svc_metric_hits ${metricHits}\n").map(_.withContentType(org.http4s.headers.`Content-Type`(org.http4s.MediaType.text.plain))) // Текстовая метрика
+    case req @ POST -> Root / "provider" / "callback" => // Колбэк провайдера
+      req.asJsonDecode[PaymentCallbackRequest].flatMap { cb => // Декодируем
+        Ok(PaymentStatusResponse(cb.paymentId, cb.status).asJson) // Эхо-ответ статуса
+      }
+    case GET -> Root / "status" / paymentId => // Статус платежа
+      Ok(PaymentStatusResponse(paymentId, "PAID").asJson) // Мокаем статус PAID
   } // Завершаем определение роутов
 
   // Запуск сервера как ZIO-эффект

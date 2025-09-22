@@ -15,3 +15,29 @@ object TapirEndpoints: // Объявляем объект с эндпоинта�
       .in("inventory") // Путь /inventory
       .out(jsonBody[InventoryResponse]) // Ответ JSON
 
+  // Принудительный старт машины
+  val forceStartEndpoint: PublicEndpoint[(String, ForceStartRequest), Unit, CommandResponse, Any] = // Описание
+    endpoint.post // POST метод
+      .in("machines" / path[String]("machineId") / "start") // Путь /machines/{id}/start
+      .in(jsonBody[ForceStartRequest]) // Тело запроса
+      .out(jsonBody[CommandResponse]) // Ответ
+
+  // Принудительная остановка машины
+  val forceStopEndpoint: PublicEndpoint[String, Unit, CommandResponse, Any] = // Описание
+    endpoint.post // POST метод
+      .in("machines" / path[String]("machineId") / "stop") // Путь /machines/{id}/stop
+      .out(jsonBody[CommandResponse]) // Ответ
+
+  // Ручное дозирование
+  val adminDoseEndpoint: PublicEndpoint[AdminDoseRequest, Unit, CommandResponse, Any] = // Описание
+    endpoint.post // POST
+      .in("dose") // Путь /dose
+      .in(jsonBody[AdminDoseRequest]) // Тело запроса
+      .out(jsonBody[CommandResponse]) // Ответ
+
+  // Получение отчёта
+  val reportEndpoint: PublicEndpoint[String, Unit, ReportResponse, Any] = // Описание
+    endpoint.get // GET
+      .in("reports" / path[String]("reportDate")) // Путь /reports/{date}
+      .out(jsonBody[ReportResponse]) // Ответ
+

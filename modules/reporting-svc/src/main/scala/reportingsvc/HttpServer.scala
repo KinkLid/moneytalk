@@ -9,13 +9,25 @@ import org.http4s.ember.server.* // Лёгкий сервер http4s
 import com.comcast.ip4s.* // Типы адресов/портов
 import zio.ZIO // Импортируем только тип ZIO
 import zio.interop.catz.* // Интероп ZIO <-> Cats Effect
+import org.http4s.circe.* // Поддержка Circe
+import io.circe.syntax.* // Синтаксис .asJson
 
 // Простой HTTP-сервер с эндпоинтом здоровья
 object HttpServer: // Объявляем объект сервера
+  // Счётчик обращений
+  private var metricHits: Long = 0L // Счётчик метрик
   // Роуты приложения
   private val routes: HttpRoutes[cats.effect.IO] = HttpRoutes.of[cats.effect.IO] { // Определяем маршруты
     case GET -> Root / "health" => Ok("OK") // Возвращаем 200 OK на /health
+    case GET -> Root / "metrics" => // Эндпоинт метрик
+      metricHits = metricHits + 1 // Инкремент
+      Ok(s"reporting_svc_metric_hits ${metricHits}\n").map(_.withContentType(org.http4s.headers.`Content-Type`(org.http4s.MediaType.text.plain))) // Текстовая метрика
+    case GET -> Root / "daily" / date => // Генерация дневного отчёта
+      Ok(Map("reportDate" -> date, "totalOrders" -> 1, "totalCents" -> 2000).asJson) // Простая заглушка
   } // Завершаем определение роутов
+
+  // Публичный httpApp для модульных тестов
+  def httpApp: org.http4s.HttpApp[cats.effect.IO] = routes.orNotFound // Экспортируем HttpApp
 
   // Запуск сервера как ZIO-эффект
   def serve(port: Int): ZIO[Any, Throwable, Unit] = // Определяем метод запуска с портом

@@ -533,3 +533,1181 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/HttpServer.scala
 2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/test/scala/apigateway/AuthSpec.scala
 2025.09.22 22:17:07 WARN  no build target for: /home/leo/sergeyg/modules/api-gateway/src/main/scala/apigateway/Auth.scala
+2025.09.22 19:29:29 INFO  Started: Metals version 1.6.2 in folders 'C:\coc\moneytalk' for client Cursor 1.99.3.
+2025.09.22 19:29:33 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:29:44 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:29:44 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
+2025.09.22 19:29:44 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:29:49 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:29:50 INFO  time: code lens generation in 5.06s
+2025.09.22 19:29:49 INFO  time: code lens generation in 5.06s
+2025.09.22 19:29:56 INFO  Shutting down server
+2025.09.22 19:29:56 INFO  shutting down Metals
+2025.09.22 19:29:56 INFO  Exiting server
+2025.09.22 19:30:08 INFO  Started: Metals version 1.6.2 in folders 'C:\coc\moneytalk' for client Cursor 1.99.3.
+2025.09.22 19:30:09 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:30:09 INFO  skipping build import with status 'Dismissed'
+2025.09.22 19:30:09 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:30:10 WARN  no build target for: C:\coc\moneytalk\src\main\scala\main.scala
+2025.09.22 19:30:11 INFO  no build target found for C:\coc\moneytalk\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:30:12 INFO  time: code lens generation in 2.6s
+2025.09.22 19:30:12 INFO  time: code lens generation in 2.6s
+2025.09.22 19:32:33 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:33 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:33 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:32:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Config.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:39 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Config.scala
+2025.09.22 19:32:44 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:44 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Logging.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:44 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Logging.scala
+2025.09.22 19:32:47 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Main.scala
+2025.09.22 19:32:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+сент. 22, 2025 7:32:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-32-54-772.md
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Validators.scala
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Validators.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Main.scala
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:54 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:59 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:59 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:32:59 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:33:01 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:01 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Auth.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:01 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\Auth.scala
+2025.09.22 19:33:05 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:05 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:05 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Main.scala
+2025.09.22 19:33:08 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:08 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:08 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:33:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-33-08-893.md
+2025.09.22 19:33:11 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:33:11 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:11 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:31 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:31 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:31 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Main.scala
+2025.09.22 19:33:38 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:38 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:38 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:33:40 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:40 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Domain.scala
+2025.09.22 19:33:40 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:43 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:43 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Client.scala
+2025.09.22 19:33:43 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Client.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:47 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:47 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:47 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:33:50 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:50 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:50 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Main.scala
+2025.09.22 19:33:53 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:53 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Protocol.scala
+2025.09.22 19:33:53 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Protocol.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:56 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:33:56 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:33:56 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:00 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:00 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:00 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Main.scala
+2025.09.22 19:34:04 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:04 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:04 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Main.scala
+2025.09.22 19:34:07 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:07 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:07 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:34:11 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:11 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Domain.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:11 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Domain.scala
+2025.09.22 19:34:13 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:13 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\StatusLogic.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:13 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\StatusLogic.scala
+2025.09.22 19:34:16 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:16 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\SberClient.scala
+2025.09.22 19:34:16 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\SberClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:21 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:21 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:21 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Main.scala
+2025.09.22 19:34:23 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:23 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:23 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:34:28 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:28 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\OrangeDataClient.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:28 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\OrangeDataClient.scala
+2025.09.22 19:34:36 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:36 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Receipt.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:36 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\Receipt.scala
+2025.09.22 19:34:39 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:39 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:39 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\Main.scala
+2025.09.22 19:34:41 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:41 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:34:41 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:52 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:52 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\Main.scala
+2025.09.22 19:34:52 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:56 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:56 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:34:56 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:35:11 WARN  no build target for: C:\coc\moneytalk\project\plugins.sbt
+2025.09.22 19:35:11 INFO  no build target found for C:\coc\moneytalk\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:35:11 INFO  no build target found for C:\coc\moneytalk\project\plugins.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:38 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:38 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:38 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\HealthSpec.scala
+2025.09.22 19:36:47 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\test\scala\apigateway\AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:47 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\test\scala\apigateway\AuthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:47 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\test\scala\apigateway\AuthSpec.scala
+2025.09.22 19:36:59 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:59 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\StatusLogicSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:36:59 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\StatusLogicSpec.scala
+2025.09.22 19:37:02 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:02 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\SberClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:02 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\SberClientSpec.scala
+2025.09.22 19:37:18 INFO  no build target found for C:\coc\moneytalk\modules\migrations\src\test\scala\MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:18 INFO  no build target found for C:\coc\moneytalk\modules\migrations\src\test\scala\MigrationsSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:18 WARN  no build target for: C:\coc\moneytalk\modules\migrations\src\test\scala\MigrationsSpec.scala
+2025.09.22 19:37:55 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:55 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:55 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:37:58 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:37:58 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:38:04 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:04 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:04 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:08 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:38:09 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:12 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:12 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:12 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:15 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:38:18 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:18 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:18 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:24 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:38:27 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:27 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:27 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:29 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:38:29 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:32 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:35 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:38:35 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:39 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:39 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:39 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:38:57 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:38:57 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:00 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:00 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:00 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:06 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:39:06 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:09 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:09 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:09 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:13 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:12 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:39:19 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:19 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:26 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:39:26 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:39:32 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:39:32 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:40:16 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:40:16 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:40:16 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:40:16 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:40:15 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:40:16 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:11 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:43:23 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:23 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:43:23 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:32 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:43:38 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:38 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:43:38 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:43:54 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:43:54 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:43:54 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:43:54 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:23 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:39 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:39 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:40 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:39 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:45:40 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:46:09 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:46:29 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:46:29 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:46:29 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:47:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:10 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:47:22 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:22 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:22 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 INFO  no build target found for C:\coc\moneytalk\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:23 WARN  no build target for: C:\coc\moneytalk\build.sbt
+2025.09.22 19:47:29 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:29 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:29 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+сент. 22, 2025 7:47:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-47-36-765.md
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:36 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:47:36 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 7:47:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-47-36-892.md
+2025.09.22 19:47:39 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:39 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:47:39 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:42 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:47:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-47-43-056.md
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:43 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:47:42 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:43 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:47:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-47-43-179.md
+2025.09.22 19:47:43 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 7:47:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-47-43-240.md
+2025.09.22 19:47:53 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:53 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:47:53 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:01 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:03 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:03 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:03 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:08 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:08 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:08 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:11 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:10 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:16 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:25 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:25 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:25 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:25 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:25 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:25 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:37 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:37 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:37 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:37 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:37 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:37 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:49 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:48:49 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:48:49 WARN  no build target for: C:\coc\moneytalk\build.sbt
+сент. 22, 2025 7:48:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-48-49-341.md
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:49 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 7:48:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-48-49-498.md
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:49 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:48:49 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:01 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:49:40 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:40 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:49:40 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:49:40 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:49:46 INFO  running 'C:\Users\leo_b\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.16%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\leo_b\AppData\Local\Temp\metals6274313201471090184\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.09.22 19:49:47 ERROR [info] [launcher] getting org.scala-sbt sbt 1.11.6  (this may take some time)...
+сент. 22, 2025 7:49:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.09.22 19:49:58 INFO  [info] welcome to sbt 1.11.6 (Eclipse Adoptium Java 17.0.16)
+2025.09.22 19:49:59 INFO  [info] loading settings for project moneytalk-build-build-build from metals.sbt...
+2025.09.22 19:49:59 INFO  [info] loading project definition from C:\coc\moneytalk\project\project\project
+2025.09.22 19:50:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:01 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:50:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:01 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:50:02 INFO  [info] loading settings for project moneytalk-build-build from metals.sbt...
+2025.09.22 19:50:02 INFO  [info] loading project definition from C:\coc\moneytalk\project\project
+2025.09.22 19:50:06 INFO  [success] Generated .bloop\moneytalk-build-build.json
+2025.09.22 19:50:06 INFO  [success] Total time: 4 s, completed 22 СЃРµРЅС‚. 2025 Рі., 19:50:06
+2025.09.22 19:50:06 INFO  [info] loading settings for project moneytalk-build from metals.sbt, plugins.sbt...
+2025.09.22 19:50:07 INFO  [info] loading project definition from C:\coc\moneytalk\project
+2025.09.22 19:50:24 INFO  [success] Generated .bloop\moneytalk-build.json
+2025.09.22 19:50:24 INFO  [success] Total time: 17 s, completed 22 СЃРµРЅС‚. 2025 Рі., 19:50:24
+2025.09.22 19:50:26 INFO  [info] loading settings for project root from build.sbt...
+2025.09.22 19:50:26 INFO  [info] resolving key references (14542 settings) ...
+2025.09.22 19:50:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:30 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:50:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:30 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:50:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:31 INFO  [info] set current project to laundry-automation (in build file:/C:/coc/moneytalk/)
+2025.09.22 19:50:37 INFO  [warn] 
+2025.09.22 19:50:37 INFO  [warn] 	Note: Unresolved dependencies path:
+2025.09.22 19:50:37 INFO  [warn] 
+2025.09.22 19:50:37 INFO  [warn] 	Note: Unresolved dependencies path:
+2025.09.22 19:50:42 INFO  [success] Generated .bloop\root-test.json
+2025.09.22 19:50:42 INFO  [success] Generated .bloop\root.json
+2025.09.22 19:50:42 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2025.09.22 19:50:42 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading com.softwaremill.sttp.tapir:tapir-openapi-circe-yaml_3:1.10.8
+2025.09.22 19:50:42 INFO  [error]   Not found
+2025.09.22 19:50:42 INFO  [error]   Not found
+2025.09.22 19:50:42 INFO  [error]   not found: C:\Users\leo_b\.ivy2\localcom.softwaremill.sttp.tapir\tapir-openapi-circe-yaml_3\1.10.8\ivys\ivy.xml
+2025.09.22 19:50:42 INFO  [error]   not found: https://repo1.maven.org/maven2/com/softwaremill/sttp/tapir/tapir-openapi-circe-yaml_3/1.10.8/tapir-openapi-circe-yaml_3-1.10.8.pom
+2025.09.22 19:50:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:347)
+2025.09.22 19:50:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$39(CoursierDependencyResolution.scala:316)
+2025.09.22 19:50:42 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2025.09.22 19:50:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:316)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:142)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:144)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:131)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:169)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3993)
+2025.09.22 19:50:42 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2025.09.22 19:50:42 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025.09.22 19:50:42 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:840)
+2025.09.22 19:50:42 INFO  [error] (migrations / update) sbt.librarymanagement.ResolveException: Error downloading com.softwaremill.sttp.tapir:tapir-openapi-circe-yaml_3:1.10.8
+2025.09.22 19:50:42 INFO  [error]   Not found
+2025.09.22 19:50:42 INFO  [error]   Not found
+2025.09.22 19:50:42 INFO  [error]   not found: C:\Users\leo_b\.ivy2\localcom.softwaremill.sttp.tapir\tapir-openapi-circe-yaml_3\1.10.8\ivys\ivy.xml
+2025.09.22 19:50:42 INFO  [error]   not found: https://repo1.maven.org/maven2/com/softwaremill/sttp/tapir/tapir-openapi-circe-yaml_3/1.10.8/tapir-openapi-circe-yaml_3-1.10.8.pom
+2025.09.22 19:50:42 INFO  [error] Total time: 11 s, completed 22 СЃРµРЅС‚. 2025 Рі., 19:50:42
+2025.09.22 19:50:42 INFO  time: ran 'sbt bloopInstall' in 55s
+2025.09.22 19:50:42 ERROR sbt command failed: C:\Users\leo_b\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.16%252B8\OpenJDK17U-jdk_x64_windows_hotspot_17.0.16_8.zip\jdk-17.0.16+8\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\leo_b\AppData\Local\Temp\metals6274313201471090184\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.09.22 19:50:42 INFO  Attempting to connect to the build server...
+2025.09.22 19:50:42 INFO  No running Bloop server found, starting one.
+2025.09.22 19:50:44 INFO  Starting compilation server
+2025.09.22 19:50:44 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:44 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:44 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:47 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:46 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:47 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:50:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.22 19:50:47 INFO  Attempting to connect to the build server...
+2025.09.22 19:50:47 INFO  Found a Bloop server running
+2025.09.22 19:50:47 INFO  Attempting to connect to the build server...
+2025.09.22 19:50:47 INFO  Found a Bloop server running
+2025.09.22 19:50:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.22 19:50:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\coc\moneytalk\project\.metals\bsp.trace.json or C:\Users\leo_b\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.09.22 19:50:47 INFO  time: Connected to build server in 5.39s
+2025.09.22 19:50:47 INFO  Connected to Build server: Bloop v2.0.13
+2025.09.22 19:50:48 INFO  time: Imported build in 0.14s
+2025.09.22 19:50:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:51 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:53 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:53 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:53 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:50:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:50:54 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:51:03 INFO  time: indexed workspace in 15s
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:51:03 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:51:04 WARN  Missing projects 'emailSvc', 'reportingSvc', 'fiscalSvc', 'paymentsSvc', 'doserGateway', 'lgAdapter', 'machinesSvc', 'adminApi', 'usersApi', 'apiGateway', 'migrations', 'common', may cause compilation issues in project 'root'
+2025.09.22 19:51:04 INFO  compiling root (1 scala source)
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:05 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+сент. 22, 2025 7:51:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-51-05-334.md
+2025.09.22 19:51:07 INFO  time: compiled root in 2.97s
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:11 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+сент. 22, 2025 7:51:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-51-11-914.md
+2025.09.22 19:51:23 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:23 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala
+2025.09.22 19:51:23 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala
+2025.09.22 19:51:23 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala
+2025.09.22 19:51:23 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+сент. 22, 2025 7:51:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-51-23-294.md
+2025.09.22 19:51:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:32 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:51:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:32 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:51:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:41 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:41 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:41 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:51:53 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:53 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:53 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:59 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:59 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:51:59 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:59 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:58 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:59 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:51:59 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:51:59 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:12 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:52:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-52-13-031.md
+2025.09.22 19:52:26 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala
+2025.09.22 19:52:26 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala
+2025.09.22 19:52:26 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:26 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:52:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-52-26-992.md
+2025.09.22 19:52:38 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:38 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:52:38 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:38 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:38 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:52:38 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:01 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:53:01 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:01 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:01 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:06 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:06 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:53:06 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:06 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:06 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:06 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:14 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:14 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:14 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:53:14 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:14 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:14 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:32 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:53:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:32 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:49 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:49 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:49 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:53:56 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:56 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:56 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:53:56 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:53:56 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:00 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:00 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:00 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:54:00 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:00 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:00 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:54:10 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:54:29 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:29 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:29 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:54:29 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:29 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:29 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:54:55 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:07 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 7:55:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-55-07-465.md
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:17 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:24 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:55:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:32 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:32 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:32 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:32 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:32 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:33 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:33 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:55:37 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:37 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:37 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:40 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:51 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:55:56 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:06 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:07 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:06 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:07 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala
+2025.09.22 19:56:19 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:56:19 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+сент. 22, 2025 7:56:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_19-56-19-733.md
+2025.09.22 19:56:33 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:33 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:56:33 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:33 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:33 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:33 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:56:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:47 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:47 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:56:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:47 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:56:47 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:57:20 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:57:20 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:57:20 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:57:20 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:57:20 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:57:20 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:17 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:24 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:58:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:30 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:58:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:30 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:30 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:30 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:30 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:58:45 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:45 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:58:45 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:45 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:45 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:45 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:45 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:46 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:46 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:58:51 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:59:06 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala
+2025.09.22 19:59:06 WARN  no build target for: C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala
+2025.09.22 19:59:06 WARN  no build target for: C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala
+2025.09.22 19:59:06 WARN  no build target for: C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala
+2025.09.22 19:59:06 WARN  no build target for: C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala
+2025.09.22 19:59:13 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:59:13 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:59:13 WARN  no build target for: C:\coc\moneytalk\modules\users-api\src\test\scala\usersapi\TapirSpec.scala
+2025.09.22 19:59:13 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:59:13 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 19:59:13 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\test\scala\adminapi\TapirSpec.scala
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\test\scala\machinessvc\DomainSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\test\scala\dosergateway\ProtocolSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\test\scala\fiscalsvc\ReceiptSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\test\scala\lgadapter\ClientSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\test\scala\reportingsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\test\scala\emailsvc\HealthSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\common\src\main\scala\common\Outbox.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\common\src\test\scala\OutboxWorkerSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\test\scala\paymentssvc\IntegrationSpec.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\users-api\src\main\scala\usersapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\TapirEndpoints.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\api-gateway\src\main\scala\apigateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\machines-svc\src\main\scala\machinessvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\lg-adapter\src\main\scala\lgadapter\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\doser-gateway\src\main\scala\dosergateway\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\Models.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\payments-svc\src\main\scala\paymentssvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\fiscal-svc\src\main\scala\fiscalsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\reporting-svc\src\main\scala\reportingsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:30 INFO  no build target found for C:\coc\moneytalk\modules\email-svc\src\main\scala\emailsvc\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:39 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:39 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+сент. 22, 2025 8:00:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\coc\moneytalk\.metals\.reports\metals-full\2025-09-22\r_compiler-error_20-00-39-930.md
+2025.09.22 20:00:39 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:40 WARN  no build target for: C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala
+2025.09.22 20:00:40 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:43 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:43 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 20:00:51 INFO  no build target found for C:\coc\moneytalk\modules\admin-api\src\main\scala\adminapi\HttpServer.scala. Using presentation compiler with project's scala-library version: 3.3.6

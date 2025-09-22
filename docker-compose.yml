@@ -43,6 +43,12 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Включаем мок-режим
       APP_HTTP_PORT: "8081" # Порт сервиса
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД по умолчанию
+      APP_DB_USER: "laundry" # Пользователь БД
+      APP_DB_PASSWORD: "laundry" # Пароль БД
+      USERS_API_URL: "http://users-api:8082" # Адрес users-api для проксирования
+      ADMIN_API_URL: "http://admin-api:8083" # Адрес admin-api для проксирования
     ports: # Порты
       - "8081:8081" # Пробрасываем порт
     depends_on: # Зависимости
@@ -54,6 +60,10 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8082" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД
+      APP_DB_USER: "laundry" # Пользователь
+      APP_DB_PASSWORD: "laundry" # Пароль
     ports: # Порты
       - "8082:8082" # Проброс порта
     depends_on: # Зависимости
@@ -65,6 +75,10 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8083" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД
+      APP_DB_USER: "laundry" # Пользователь
+      APP_DB_PASSWORD: "laundry" # Пароль
     ports: # Порты
       - "8083:8083" # Проброс порта
     depends_on: # Зависимости
@@ -76,6 +90,10 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8084" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД
+      APP_DB_USER: "laundry" # Пользователь
+      APP_DB_PASSWORD: "laundry" # Пароль
     ports: # Порты
       - "8084:8084" # Проброс порта
     depends_on: # Зависимости
@@ -87,6 +105,7 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8085" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
     ports: # Порты
       - "8085:8085" # Проброс порта
 
@@ -95,6 +114,7 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8086" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
     ports: # Порты
       - "8086:8086" # Проброс порта
 
@@ -103,6 +123,10 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8087" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД
+      APP_DB_USER: "laundry" # Пользователь
+      APP_DB_PASSWORD: "laundry" # Пароль
     ports: # Порты
       - "8087:8087" # Проброс порта
     depends_on: # Зависимости
@@ -114,6 +138,7 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8088" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
     ports: # Порты
       - "8088:8088" # Проброс порта
 
@@ -122,6 +147,10 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8089" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
+      APP_DB_URL: "jdbc:postgresql://postgres:5432/laundry" # URL БД
+      APP_DB_USER: "laundry" # Пользователь
+      APP_DB_PASSWORD: "laundry" # Пароль
     ports: # Порты
       - "8089:8089" # Проброс порта
     depends_on: # Зависимости
@@ -133,6 +162,7 @@ services: # Раздел сервисов
     environment: # Переменные окружения
       MOCKS_ENABLED: "true" # Мок-режим
       APP_HTTP_PORT: "8090" # Порт
+      APP_HTTP_HOST: "0.0.0.0" # Хост HTTP сервера
     ports: # Порты
       - "8090:8090" # Проброс порта
 

@@ -1,0 +1,33 @@
+# Здоровье admin-api
+GET http://localhost:8083/health
+
+# Инвентарь
+GET http://localhost:8083/inventory
+
+# Принудительный старт машины
+POST http://localhost:8083/machines/m1/start
+Content-Type: application/json
+
+{
+  "programCode": "Q30"
+}
+
+# Принудительная остановка машины
+POST http://localhost:8083/machines/m1/stop
+
+# Ручное дозирование
+POST http://localhost:8083/dose
+Content-Type: application/json
+
+{
+  "channel": "D",
+  "ml": 50
+}
+
+# Получить отчёт за дату (YYYY-MM-DD)
+GET http://localhost:8083/reports/2025-01-01
+
+# OpenAPI спецификация
+GET http://localhost:8083/openapi.yaml
+
+
